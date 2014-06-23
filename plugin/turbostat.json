@@ -1,0 +1,43 @@
+{
+	"current": {
+		"type": "ignore",
+		"title": "SMI",
+		"vertical": "Number",
+		"legend_format": "%5.0lf"
+	},
+	"frequency": {
+		"title": "Frequency",
+		"vertical": "GHz",
+		"legend_format": "%5.1lf%s"
+	},
+	"percent": {
+		"type": "stacked",
+		"title": "C states ({{PI}})",
+		"vertical": "Percent",
+		"legend_format": "%5.1lf"
+	},
+	"power": {
+		"title": "Power consumption ({{PI}})",
+		"vertical": "Watts",
+		"legend_format": "%5.1lf%s",
+		"legend": {
+			"Cor_W": {
+				"name": "Cores"
+			},
+			"GFX_W": {
+				"name": "Graphics"
+			},
+			"Pkg_W": {
+				"name": "Package"
+			},
+			"RAM_W": {
+				"name": "DRAM"
+			}
+		}
+	},
+	"temperature": {
+		"title": "Temperature",
+		"vertical": "°C",
+		"legend_format": "%5.1lf%s"
+	}
+}
